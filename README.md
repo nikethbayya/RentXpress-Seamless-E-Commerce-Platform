@@ -2,7 +2,7 @@
 Full Stack e-commerce application
 RentItAll - Rental & Services Management System
 
-**RentItAll** is an e-commerce platform designed to facilitate interactions between customers and service providers by organizing and simplifying rental-related tasks. The system supports various rental items, including apartments, cars, boats, and many more.
+**RentXpress** is an e-commerce platform designed to facilitate interactions between customers and service providers by organizing and simplifying rental-related tasks. The system supports various rental items, including apartments, cars, boats, and many more.
 
 
 **Views:**
