@@ -1,4 +1,4 @@
-# RentItAll-
+# RentXpress-Seamless-E-Commerce-Platform
 Full Stack e-commerce application
 RentItAll - Rental & Services Management System
 
