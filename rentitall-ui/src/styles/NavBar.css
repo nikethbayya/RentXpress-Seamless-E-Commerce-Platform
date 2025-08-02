@@ -1,0 +1,206 @@
+.NavBar {
+    padding: 0 1rem;
+    border-bottom: 2px solid var(--border-light-blue-shade);
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--dark-teal-theme);
+    z-index: 9999;
+    /*max-width: 90rem;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+    .navbar-company-logo {
+        height: 4rem;
+        cursor: pointer;
+    }
+
+    .input-wrapper {
+        /* margin-top: 0.25rem; */
+        position: relative;
+        /* height: 52px; */
+
+        span {
+            position: absolute;
+            transform: translateY(50%);
+            right: 0.5rem;
+        }
+    }
+
+    input {
+        background-color: var(--dim-dark-blue-shade);
+        border: 1px solid var(--input-border-color);
+        border-radius: 0.5rem;
+        color: var(--text-primary-color);
+        padding: 0.75rem 3.3rem 0.75rem 2.25rem;
+        font-size: 1rem;
+    }
+
+    ::-ms-input-placeholder {
+        /* Edge 12-18 */
+        color: var(--input-placeholder-color);
+    }
+
+    ::placeholder {
+        color: var(--input-placeholder-color);
+        /* font-size: 13px; */
+        font-weight: 450;
+    }
+
+    .search-bar-wrapper {
+        color: black;
+
+        .search-bar-form {
+            display: flex;
+            position: relative;
+            height: 100%;
+            align-items: center;
+        }
+    }
+
+    .search-submit {
+        background-color: transparent;
+        position: absolute;
+        padding: 0;
+        right: 0.5rem;
+        /* top: 1.1rem; */
+
+        svg {
+            fill: white;
+        }
+    }
+
+    .search-submit:hover {
+        background-color: transparent;
+        transform: scale(1.2)
+    }
+
+    .remove-text-element {
+        background-color: transparent;
+        position: absolute;
+        padding: 0;
+        right: 2rem;
+        top: 1rem;
+        cursor: pointer;
+
+        svg {
+            fill: white;
+        }
+    }
+
+    .nav-actions {
+        display: flex;
+        margin-left: 1rem;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-items {
+        display: flex;
+        .item-wrapper {
+            height: 100%;
+            padding: 0 0.5rem;
+            >.item {
+                align-self: stretch;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                cursor: pointer;
+                border-bottom: 2px solid transparent;
+            }
+            >.item:hover {
+                border-bottom: 2px solid var(--button-primary-color);
+            }
+        }
+    }
+
+    .navbar-actions {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-left: 1rem;
+
+        .sign-in-button {
+            padding: 0.75rem 2rem;
+            display: flex;
+            height: fit-content;
+            align-self: center;
+        }
+        .list-your-item-button {
+            padding: 0.75rem 2rem;
+            display: flex;
+            height: fit-content;
+            align-self: center;
+        }
+
+        .user-profile-wrapper {
+            padding-left: 0.5rem;
+            border-left: 1px solid white;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            .user-profile {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                cursor: pointer;
+                border-radius: 5px;
+                height: 100%;
+            }
+
+            .user-profile-name {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+            .user-profile-dropdown {
+                position: absolute;
+                padding: 0.5rem;
+                top: 70px;
+                width: 100%;
+                background-color: var(--dark-teal-theme);
+                border-radius: 5px;
+                text-align: center;
+
+                .each-action {
+                    cursor: pointer;
+                }
+
+                .each-action:not(:last-child) {
+                    padding-bottom: 0.5rem;
+                    border-bottom: 1px solid;
+                    margin-bottom: 0.5rem;
+                }
+
+                .sign-out-button {
+                    padding: 0.5rem 1rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        .user-profile:hover {
+            /* box-shadow: 6px 6px 6px #091b19 inset, -6px -6px 6px #2c0f0f inset; */
+        }
+    }
+
+    .mic {
+        background-color: transparent;
+        position: absolute;
+        padding: 0;
+        left: 0.5rem;
+        /* top: 1.1rem; */
+
+        svg {
+            fill: white;
+        }
+    }
+
+    .mic:hover {
+        background-color: transparent;
+        transform: scale(1.2)
+    }
+}

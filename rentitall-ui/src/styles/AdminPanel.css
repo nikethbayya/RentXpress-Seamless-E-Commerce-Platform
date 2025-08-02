@@ -1,0 +1,12 @@
+.approve{
+    color: darkgreen;
+    font-size: 60px !important;
+}
+.approve:hover{
+
+}
+.reject{
+    color: red;
+    font-size: 60px !important;
+}
+

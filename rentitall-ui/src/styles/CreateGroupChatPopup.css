@@ -1,0 +1,59 @@
+.add-grp-members-form {
+    form {
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+        }
+    }
+    
+    div.field-wrapper {
+        margin-bottom: 1.5rem;
+    }
+    
+    input,
+    textarea,
+    input[type='file'] {
+        background-color: var(--dim-dark-blue-shade);
+        border: 1px solid var(--input-border-color);
+        border-radius: 0.5rem;
+        color: var(--text-primary-color);
+        padding: 0.5rem 0.75rem;
+    }
+    
+    select {
+        background-color: var(--dim-dark-blue-shade);
+        border: 1px solid var(--input-border-color);
+        border-radius: 0.5rem;
+        color: var(--text-primary-color);
+    }
+    
+    ::-ms-input-placeholder {
+        /* Edge 12-18 */
+        color: var(--input-placeholder-color);
+    }
+    
+    ::placeholder {
+        color: var(--input-placeholder-color);
+        font-size: 13px;
+        font-weight: 450;
+    }
+    
+    label {
+        color: var(--text-primary-color);
+        font-size: 13px;
+        font-weight: 450;
+    }
+    
+    .input-wrapper {
+        margin-top: 0.25rem;
+        position: relative;
+    
+        span {
+            position: absolute;
+            transform: translateY(50%);
+            right: 0.5rem;
+        }
+    }
+}

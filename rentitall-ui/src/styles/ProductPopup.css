@@ -1,0 +1,63 @@
+/* Dark Theme Styles for ProductPopup */
+.modal-content {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content img {
+    border-radius: 4px;
+}
+
+.modal-content h2,
+.modal-content h4 {
+    color: #adadad; /* Slightly dimmed text for headings */
+}
+
+.modal-content p,
+.modal-content span {
+    color: #ccc; /* Light gray text */
+}
+
+.modal-content .border-t {
+    border-top: 1px solid #555; /* Dark border for separation */
+}
+
+.modal-content input[type="date"] {
+    background-color: #222; /* Darker input fields */
+    color: #ddd; /* Light text inside inputs */
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.modal-content button {
+    background-color: #007bff; /* Bootstrap primary color for example */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.image-gallery {
+    button {
+        background-color: transparent;
+    }
+}
+
+/* .chat-with-owner-button {
+    padding: 0;
+    background-color: transparent;
+}
+.chat-with-owner-button:hover {
+    background-color: transparent;
+    transform: scale(1.2)
+} */

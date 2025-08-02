@@ -1,0 +1,28 @@
+:root {
+    /* background */
+    --dark-teal-theme: #003239;
+    --border-light-blue-shade: #4f6578;
+    --dim-dark-blue-shade: #1B2632;
+    --input-border-color: #263E4F;
+    --modal-dark-bg-color: #0C141B;
+    --secondary-bluish-green-color: #00a3ad;
+    --dark-gray-background-color: #36454F;
+    --chat-bubble-background: #0712159e;
+
+    /* button */
+    --button-primary-color: #fdcc08;
+    --button-primary-hover-color: #ffe200;
+    --button-secondary-color: #1a80e63c;
+    --button-primary-text-color: black;
+    --black-hover-background-color: #111111;
+
+
+
+    /* text */
+    --text-primary-color: white;
+    --text-secondary-color: #98A9B6;
+    --input-placeholder-color: #97ACC7;
+    --text-action-color: #00e2e6;
+    --text-action-disabled-color: #5d8384;
+    --error-text-color: red;
+}
